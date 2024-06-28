@@ -1,7 +1,4 @@
-import React from 'react'
 import { Canvas } from '@react-three/fiber'
-import { MeshBasicMaterial } from 'three'
-import { Sphere, SphereGeometry } from 'three'
 
 const TriangleGreen = () => {
   return (

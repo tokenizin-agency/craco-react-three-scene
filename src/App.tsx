@@ -1,11 +1,9 @@
 import * as THREE from 'three'
-import React, { Suspense, useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Reflector, Text, useTexture, useGLTF } from '@react-three/drei'
 import { FullPageChat } from 'flowise-embed-react'
-
-import TriangleGreen from './TriangleGreen'
 
 export default function App() {
   const [chatOpen, setChatOpen] = useState(false)
