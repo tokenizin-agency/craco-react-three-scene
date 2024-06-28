@@ -59,7 +59,6 @@ yarn-error.log*
 .cache
 dist/
 coverage/
-public/
 *.tsbuildinfo
 *.env
 *.log
