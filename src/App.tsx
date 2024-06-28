@@ -51,7 +51,7 @@ function VideoText(props: JSX.IntrinsicElements['mesh']) {
   useEffect(() => void video.play(), [video])
   return (
     <Text font="/Inter-Bold.woff" fontSize={1.5} letterSpacing={-0.1} {...props}>
-      DAOBLE
+      TOKENIZIN
       <meshBasicMaterial toneMapped={false}>
         <videoTexture attach="map" args={[video]} />
       </meshBasicMaterial>
